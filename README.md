@@ -1,8 +1,23 @@
-# React + Vite
+# QuizMaster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple quiz application built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Multiple-choice and integer-based questions
+- Timer for each question
+- Quiz history stored in IndexedDB
+- Score calculation and result display
+## Screenshot
+![Screenshot](./src/assets/Screenshot1.png)
+![Screenshot](./src/assets/Screenshot3.png)
+![Screenshot](./src/assets/Screenshot2.png)
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/rohitrathod2023/Quize-Master-app.git
+
+
+
