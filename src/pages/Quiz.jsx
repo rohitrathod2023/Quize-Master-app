@@ -92,11 +92,12 @@ const Quiz = () => {
             </p>
           </div>
           <button
-              onClick={() => window.location.href = window.location.href}
+              onClick={() => window.location.reload(true)}
               className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition"
             >
               Repeat Quiz
             </button>
+
 
         </div>
       </div>
