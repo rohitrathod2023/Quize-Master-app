@@ -4,7 +4,7 @@ import MultipleChoiceQuestion from '../components/MultipleChoiceQuestion';
 import IntegerQuestion from '../components/IntegerQuestion';
 import { quizData } from '../data/quizData';
 import { saveQuizResult } from '../services/indexedDB';
-
+import { Link } from 'react-router-dom';
 const Quiz = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -91,13 +91,13 @@ const Quiz = () => {
               {((totalScore / allQuestions.length) * 100).toFixed(1)}% Correct
             </p>
           </div>
-
           <button
-            onClick={() => window.location.reload()}
-            className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition"
-          >
-            Repeat Quiz
-          </button>
+              onClick={() => window.location.href = window.location.href}
+              className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition"
+            >
+              Repeat Quiz
+            </button>
+
         </div>
       </div>
     );
