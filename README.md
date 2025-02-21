@@ -1,6 +1,7 @@
 # QuizMaster
 
 A simple quiz application built with React.
+https://quize-master-app.netlify.app/
 
 ## Features
 
